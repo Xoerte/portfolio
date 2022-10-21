@@ -124,7 +124,7 @@ const asunto = inputs[2]
 asunto.addEventListener("blur" , () => {
 	var asunto2 = asunto.value.split("")
 	
-	if(asunto2.length > 3) {
+	if(asunto2.length > 45) {
 		errorMensajes[2].style.display = "initial"
 		errorMensajes[2].innerHTML = "Este campo no puede tener mas de 50 caracteres"
 		addClass(asunto)
@@ -175,7 +175,7 @@ campoMensaje.addEventListener("blur", () => {
  		components.textarea = true
  	}
 
- 	if(campoMensaje.value.length >= 2) {
+ 	if(campoMensaje.value.length > 300) {
  		campoCaracteres(errorMensajes[3],"300")
  		addClass(campoMensaje)
  		components.textarea = false
