@@ -5,7 +5,7 @@
 }
 #sobre_mi {
     flex-direction: column-reverse;
-   width: 90% !important;
+   width: 99% !important;
    padding:1rem !important;
 
     
@@ -38,7 +38,11 @@
     justify-content: start;
   }
   html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+   
+    overflow-x: hidden; 
+    margin: 0px !important;
+    padding: 0;
+   
 }
+* { box-sizing: border-box;}
  
