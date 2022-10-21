@@ -1,0 +1,47 @@
+.sobre_mi_4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center !important;
+	color:#393030;
+	font-weight: bold;
+	
+}
+.lista_4 {
+	display: flex;
+	grid-gap: 4rem;
+	margin-left: 4rem !important;
+}
+.sobre_mi_4 > h2 {
+	font-size: 2rem;
+    padding: 1rem;
+}
+.titulo_logo {
+	width: 15rem;
+	height: 15rem;
+background: url("../Estudios/alura.png");
+background-position: center;
+}
+.titulo_logo2 {
+	width: 15rem;
+	height: 15rem;
+background: url("../Estudios/UTN_logo.jpg");
+background-position: center;
+background-size: 15rem;
+}
+.titulo_logo3 {
+	width: 15rem;
+	height: 15rem;
+background: url("../Estudios/images.jpg");
+background-position: center;
+background-size: 15rem;
+}
+.titulo_logo4 {
+	width: 15rem;
+	height: 15rem;
+background: url("../Estudios/solis.jpg");
+background-position: center;
+background-size: 23rem;
+}
+.lista_4 > li {
+	list-style: none;
+}

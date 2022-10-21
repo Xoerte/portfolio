@@ -1,0 +1,36 @@
+.lista_4 {
+	display: flex;
+    flex-direction: column !important;
+	grid-gap: 4rem;
+}
+.titulo_logo {
+	width: 20rem !important;
+	height: 10rem !important;
+background: url("../alura.png");
+background-position: center;
+}
+.titulo_logo2 {
+	width: 20rem  !important;
+	height: 10rem !important;
+	background-position: center !important;
+	background-size: 10rem !important;
+	background-repeat: no-repeat !important;
+}
+.titulo_logo3 {
+	width: 20rem  !important;
+	height: 10rem !important;
+	background-position: bottom !important;
+	background-repeat: no-repeat !important;
+	background-size: 10rem !important;
+}
+.titulo_logo4 {
+	width: 20rem  !important;
+	height: 10rem !important;
+	background-size: 15rem !important;
+	background-position: top !important;
+	background-repeat: no-repeat !important;
+}
+.projects_info > p {
+	display: none;
+}
+

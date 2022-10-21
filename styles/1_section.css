@@ -1,0 +1,30 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+h1 {
+	font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+#sobre_mi {
+	background-color: #DDEEFD;
+	display: flex;
+	justify-content: space-around;
+	padding: 3rem;
+	align-items: center;
+	color:#393030;
+	
+}
+#img_1 {
+	border-radius: 10rem;
+	width: 20rem;
+	height: 20rem;
+}
+#lista_2{
+  display: flex;
+  grid-gap: 2rem;
+  list-style: none;
+}
+/* Media Queries */

@@ -1,0 +1,18 @@
+.experiencia_profesional > div {
+	display: flex;
+	flex-direction: column !important;
+}
+.experiencia_profesional  img {
+	width: 90% !important;
+	padding: 1rem;
+	height: 18% !important;
+    border-radius: 2rem;
+}
+
+.section_movi {
+    display: initial !important;
+}
+
+#experiencia{
+    display:none !important;
+} 

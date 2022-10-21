@@ -1,0 +1,17 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+   background-color: #FFFFFF;
+   color:#393030;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+footer > h5 {
+	margin: 0;
+}
+footer > h4 {
+	margin:0;
+
+}

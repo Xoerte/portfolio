@@ -1,0 +1,16 @@
+.list_3 {
+    
+    width: 100% !important;
+   flex-wrap: wrap;
+   
+}
+.list_3 > div {
+    width: 6.4rem !important;
+    font-size: 1.5rem;
+    padding: 2rem !important;
+    
+}
+#sobre_mi_3 {
+    width: 100% !important;
+    
+}

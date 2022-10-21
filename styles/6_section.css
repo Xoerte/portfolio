@@ -1,0 +1,88 @@
+.sobre_mi_5 {
+	display: flex;
+	justify-content: center;
+	color:#393030;
+	background-color:#DDEEFD; 
+	
+}
+.sobre_mi_5 > div {
+	color:#393030;
+	font-weight: bold;
+}
+.formulario_contacto {
+	display: flex;
+	flex-direction: column;
+	grid-gap: 2rem;
+    padding: 1rem;
+   
+}
+.formulario_contacto::placeholder {
+	font-size: 3rem;
+}
+.formulario_contacto > span {
+ font-size: 10px;
+ margin-top: 3.6rem;
+ display: none;
+ position: absolute;
+ color: red;
+}
+.formulario_contacto > input {
+  border-radius: 0.2rem;
+  height: 3rem;
+  width: 37rem;
+  border:none;
+  
+
+}
+.form_button {
+	font-size: 1rem;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-color: #0099CC;
+	border:none;
+	width:9rem  !important;
+	transition: 0.3s;
+
+}
+.form_button:hover {
+	background-color: #0F9AFF;
+    
+    cursor: pointer;
+}
+
+.formulario_contacto > textarea {
+	border-radius: 0.5rem;
+	resize: none;
+	border:none;
+	font-size: 1rem;
+	outline: none;
+}
+.sobre_mi_5  div  img {
+  width: 42rem;
+  height: 35rem;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+.formulario_contacto > input:focus {
+	outline:none; 
+} 
+.form_active{
+border: 1px solid #0099CC !important;
+}
+.form_error {
+	border: 1px solid red !important;
+}
+#span {
+	position: absolute;
+	margin-top: 28rem;
+}
+#form_asunto {
+   margin-top:14rem;
+}
+#form_email {
+	margin-top: 8.9rem;
+}
+
+button {
+	cursor: pointer;
+}

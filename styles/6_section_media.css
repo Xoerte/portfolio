@@ -1,0 +1,17 @@
+
+.contact {
+ display: none;
+}
+.formulario_contacto > input {
+    border-radius: 0.2rem;
+    height: 3rem;
+    width: 100% !important;
+    border:none;
+}
+.sobre_mi_5 {
+    width:86% !important;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: lighter !important;
+  }
+ 

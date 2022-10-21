@@ -1,0 +1,44 @@
+#img_1{
+    width: 9rem !important;
+    height: 9rem !important;
+  
+}
+#sobre_mi {
+    flex-direction: column-reverse;
+   width: 90% !important;
+   padding:1rem !important;
+
+    
+}
+.section_1_derecha {
+    align-self: flex-start;
+}
+.section_1_izquierda {
+    align-self: flex-start;
+    
+}
+.section_1_izquierda h3 {
+    font-weight: 100;
+    font-size: 1.1rem;
+    padding: 1rem !important;
+    
+    
+}
+ h1 {
+    font-size: 1.5rem !important;
+    
+}
+
+  #lista_2{
+    display: flex;
+    grid-gap: 1.5rem !important;
+    list-style: none;
+    align-content: flex-start;
+    font-weight: 100;
+    justify-content: start;
+  }
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+ 

@@ -1,0 +1,33 @@
+#container_nav {
+	display: flex;
+	justify-content:space-around;
+    padding: 0.5rem;
+    align-items: center;
+    grid-gap: 10rem;
+    text-align: center;
+     font-family: 'Roboto', sans-serif;
+
+}
+
+.lista {
+	display: flex;
+	grid-gap: 3rem;
+    list-style: none;
+}
+ #container_nav > h3 {
+   color:#393030;
+ }
+a {
+	font-weight: bold;
+	color: #393030;
+	text-decoration: none;
+	transition: 1s;
+}
+a:hover {
+	color:#BEBABA;
+	
+	transform: scale(0.5);
+	cursor: pointer;
+}
+
+/* Medias Queries */
