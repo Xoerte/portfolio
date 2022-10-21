@@ -192,7 +192,7 @@ btn.addEventListener("click",(e) => {
 	inputs.forEach((a) => {
 		a.value = ""
 	})
-	e.preventDefault()
+	//e.preventDefault()
 })
 
 verificador()
